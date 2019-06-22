@@ -11,17 +11,46 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
-      </div>
-    </ion-item>
+      <ion-item [routerLink]="['/home']" routerLinkActive="router-link-active" >
+        Home
+      </ion-item>
+      <ion-item [routerLink]="['/page2']" routerLinkActive="router-link-active" >
+        page2
+      </ion-item>
+      <ion-item [routerLink]="['/page3']" routerLinkActive="router-link-active" >
+        page3
+      </ion-item>
+      <ion-item [routerLink]="['/page4']" routerLinkActive="router-link-active" >
+        page4
+      </ion-item>
+      <ion-item [routerLink]="['/page5']" routerLinkActive="router-link-active" >
+        page5
+      </ion-item>
+      <ion-item [routerLink]="['/page6']" routerLinkActive="router-link-active" >
+        page6
+      </ion-item>
+      <ion-item [routerLink]="['/page7']" routerLinkActive="router-link-active" >
+        page7
+      </ion-item>
+      <ion-item [routerLink]="['/page8']" routerLinkActive="router-link-active" >
+        page8
+      </ion-item>
+      <ion-item [routerLink]="['/page9']" routerLinkActive="router-link-active" >
+        page9
+      </ion-item>
+      <ion-item [routerLink]="['/page10']" routerLinkActive="router-link-active" >
+        page10
+      </ion-item>
+      <ion-item [routerLink]="['/page11']" routerLinkActive="router-link-active" >
+        page11
+      </ion-item>
+      <ion-item [routerLink]="['/page12']" routerLinkActive="router-link-active" >
+        page12
+      </ion-item>
+      <ion-item [routerLink]="['/page13']" routerLinkActive="router-link-active" >
+        page13
+      </ion-item>
+
   </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
+
 </ion-content>
